@@ -374,7 +374,7 @@ button {
     padding-top: 72px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-        url(../images/order-bg.jpg);
+        url(../images/order-bg-mob.jpg);
     max-width: 1440px;
     margin: 0 auto;
     background-repeat: no-repeat;
@@ -385,7 +385,7 @@ button {
     (-webkit-min-device-pixel-ratio: 2) {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/order-bg-2x.jpg);
+            url(../images/order-bg-mob-2x.jpg);
     }
 }
 
@@ -429,6 +429,16 @@ button {
     .order {
         padding-top: 112px;
         padding-bottom: 112px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/order-bg-tab.jpg);
+
+        @media screen and (min-resolution: 2x),
+        (-webkit-min-device-pixel-ratio: 2) {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/order-bg-tab-2x.jpg);
+        }
     }
 
     .order-title {
@@ -444,6 +454,16 @@ button {
     .order {
         padding-bottom: 188px;
         padding-top: 188px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/order-bg.jpg);
+
+        @media screen and (min-resolution: 2x),
+        (-webkit-min-device-pixel-ratio: 2) {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/order-bg-2x.jpg);
+        }
     }
 
     .order-title {
