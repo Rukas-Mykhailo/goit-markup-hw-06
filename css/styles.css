@@ -579,10 +579,7 @@ button {
     transform: translateY(0);
 }
 
-.portfolio-item:hover,
-.portfolio-item:focus-within {
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-}
+
 
 .portfolio-item-title {
     color: #2e2f42;
@@ -625,6 +622,11 @@ button {
     .portfolio-item {
         box-shadow: none;
         width: calc((100% - 48px) / 3);
+    }
+
+    .portfolio-item:hover,
+    .portfolio-item:focus-within {
+        box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     }
 
     .portfolio-cashless {
@@ -931,6 +933,7 @@ button {
 
 .mobile-menu-contacts {
     margin-bottom: 48px;
+    font-style: normal;
 
 }
 
